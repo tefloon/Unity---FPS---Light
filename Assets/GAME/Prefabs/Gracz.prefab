@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1458724413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1458724414}
+  m_Layer: 7
+  m_Name: MiejsceGranatu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1458724414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458724413}
+  m_LocalRotation: {x: -0.08715578, y: 0, z: 0, w: 0.9961947}
+  m_LocalPosition: {x: 0.5, y: -0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4780319890931726246}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -10, y: 0, z: 0}
 --- !u!1 &4780319890932214660
 GameObject:
   m_ObjectHideFlags: 0
@@ -13,7 +43,9 @@ GameObject:
   - component: {fileID: 4780319890920955492}
   - component: {fileID: 4780319890935138532}
   - component: {fileID: 4780319890932445796}
-  m_Layer: 0
+  - component: {fileID: 6976186395540569221}
+  - component: {fileID: 6976186395540569227}
+  m_Layer: 7
   m_Name: Gracz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,6 +321,49 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &6976186395540569221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4780319890932214660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e41f09fa2ae376146a483cf1d464cc77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  odstepStrzalow: 0.1
+  miejsceStrzalu: {fileID: 4780319890931726246}
+  efektTrafienia: {fileID: 1000010355441670, guid: 02a509a7fa70ed740ba4197e20c5d32d,
+    type: 3}
+  warstwyTrafienia:
+    serializedVersion: 2
+    m_Bits: 1847
+  dzwiekStrzalu: {fileID: 8300000, guid: 8602b7d5cd15c1943a50aa53f171c8cf, type: 3}
+  dzwiekPrzeladowania: {fileID: 8300000, guid: 3c5c1d4d7b9307c458890a4beb12e4ae, type: 3}
+  maxAmmo: 30
+  dlugoscPrzeladowania: 3
+--- !u!114 &6976186395540569227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4780319890932214660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5638d9bbfdbb764f98506a18627dcf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  miejsceGranatu: {fileID: 1458724414}
+  granatPref: {fileID: 2564041346629662284, guid: 6619c6e3ee27d31429240534b84c68af,
+    type: 3}
+  silaRzutu: 12
+  silaRotacji: 10
+  odstepGranatow: 3
+  dzwiekRzutu: {fileID: 8300000, guid: 7b38b1b758f207b48a4a78cd0b7b94fa, type: 3}
+  opoznienieDzwieku: 0.2
 --- !u!1 &4780319890932214662
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,7 +376,7 @@ GameObject:
   - component: {fileID: 4780319890930182564}
   - component: {fileID: 4780319890932610436}
   - component: {fileID: 4780319890919685058}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: "G\u0142owa"
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -318,7 +393,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1458724414}
   m_Father: {fileID: 4780319890931726244}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

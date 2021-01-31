@@ -7,8 +7,9 @@ using UnityEngine;
 public class Gracz_Atak : MonoBehaviour
 {
 	[SerializeField] private float odstepStrzalow;
-	[SerializeField] Transform miejsceStrzalu;
+	[SerializeField] private Transform miejsceStrzalu;
 	[SerializeField] private GameObject efektTrafienia;
+	[SerializeField] private LayerMask warstwyTrafienia;
 	
 	[SerializeField] private AudioClip dzwiekStrzalu;
 	[SerializeField] private AudioClip dzwiekPrzeladowania;
