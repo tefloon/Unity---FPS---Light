@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 6039649}
   - component: {fileID: 6039648}
   - component: {fileID: 6039651}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 96226642}
   - component: {fileID: 96226641}
   - component: {fileID: 96226640}
-  m_Layer: 6
+  m_Layer: 30
   m_Name: "\u015Aciana (4)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   - component: {fileID: 106763687}
   - component: {fileID: 106763686}
   - component: {fileID: 106763689}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -455,7 +455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -530,7 +530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -605,7 +605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -680,7 +680,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -755,7 +755,7 @@ GameObject:
   - component: {fileID: 198201580}
   - component: {fileID: 198201579}
   - component: {fileID: 198201582}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -867,7 +867,7 @@ GameObject:
   - component: {fileID: 202969066}
   - component: {fileID: 202969065}
   - component: {fileID: 202969068}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -979,7 +979,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1054,7 +1054,7 @@ GameObject:
   - component: {fileID: 216439941}
   - component: {fileID: 216439940}
   - component: {fileID: 216439943}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1166,7 +1166,7 @@ GameObject:
   - component: {fileID: 224236929}
   - component: {fileID: 224236928}
   - component: {fileID: 224236931}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1278,7 +1278,7 @@ GameObject:
   - component: {fileID: 248174469}
   - component: {fileID: 248174468}
   - component: {fileID: 248174471}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1390,7 +1390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d85d3a32fb6157d488e31edf82b7b1c4, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d85d3a32fb6157d488e31edf82b7b1c4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1465,7 +1465,7 @@ GameObject:
   - component: {fileID: 260217017}
   - component: {fileID: 260217016}
   - component: {fileID: 260217019}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1577,7 +1577,7 @@ GameObject:
   - component: {fileID: 264953205}
   - component: {fileID: 264953204}
   - component: {fileID: 264953207}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1689,7 +1689,7 @@ GameObject:
   - component: {fileID: 265137426}
   - component: {fileID: 265137425}
   - component: {fileID: 265137428}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1801,7 +1801,7 @@ GameObject:
   - component: {fileID: 285665613}
   - component: {fileID: 285665612}
   - component: {fileID: 285665615}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1913,7 +1913,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1988,7 +1988,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d85d3a32fb6157d488e31edf82b7b1c4, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d85d3a32fb6157d488e31edf82b7b1c4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2062,7 +2062,7 @@ GameObject:
   - component: {fileID: 373015762}
   - component: {fileID: 373015761}
   - component: {fileID: 373015760}
-  m_Layer: 6
+  m_Layer: 30
   m_Name: "\u015Aciana (2)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2157,7 +2157,7 @@ GameObject:
   - component: {fileID: 389243375}
   - component: {fileID: 389243374}
   - component: {fileID: 389243373}
-  m_Layer: 6
+  m_Layer: 30
   m_Name: "Pod\u0142oga"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2253,7 +2253,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2328,7 +2328,7 @@ GameObject:
   - component: {fileID: 416705215}
   - component: {fileID: 416705214}
   - component: {fileID: 416705217}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2439,7 +2439,7 @@ GameObject:
   - component: {fileID: 437980603}
   - component: {fileID: 437980602}
   - component: {fileID: 437980601}
-  m_Layer: 6
+  m_Layer: 30
   m_Name: "\u015Aciana (3)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2535,7 +2535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2610,7 +2610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2684,7 +2684,7 @@ GameObject:
   - component: {fileID: 466700416}
   - component: {fileID: 466700415}
   - component: {fileID: 466700414}
-  m_Layer: 6
+  m_Layer: 30
   m_Name: "\u015Aciana (1)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2779,7 +2779,7 @@ GameObject:
   - component: {fileID: 531204663}
   - component: {fileID: 531204662}
   - component: {fileID: 531204661}
-  m_Layer: 6
+  m_Layer: 30
   m_Name: "\u015Aciana (6)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2875,7 +2875,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2950,7 +2950,7 @@ GameObject:
   - component: {fileID: 581043378}
   - component: {fileID: 581043377}
   - component: {fileID: 581043380}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3058,7 +3058,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 635722505}
-  m_Layer: 6
+  m_Layer: 30
   m_Name: Schody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3189,7 +3189,7 @@ GameObject:
   - component: {fileID: 720855388}
   - component: {fileID: 720855387}
   - component: {fileID: 720855390}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3301,7 +3301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3372,7 +3372,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 780247573}
-  m_Layer: 6
+  m_Layer: 30
   m_Name: Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3447,7 +3447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3522,7 +3522,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3597,7 +3597,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3672,7 +3672,7 @@ GameObject:
   - component: {fileID: 937840210}
   - component: {fileID: 937840209}
   - component: {fileID: 937840212}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3784,7 +3784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d85d3a32fb6157d488e31edf82b7b1c4, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d85d3a32fb6157d488e31edf82b7b1c4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3859,7 +3859,7 @@ GameObject:
   - component: {fileID: 958638391}
   - component: {fileID: 958638390}
   - component: {fileID: 958638393}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3971,7 +3971,7 @@ GameObject:
   - component: {fileID: 1009267578}
   - component: {fileID: 1009267577}
   - component: {fileID: 1009267580}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4083,7 +4083,7 @@ GameObject:
   - component: {fileID: 1143605900}
   - component: {fileID: 1143605899}
   - component: {fileID: 1143605902}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4195,7 +4195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4270,7 +4270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4345,7 +4345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4419,7 +4419,7 @@ GameObject:
   - component: {fileID: 1329314379}
   - component: {fileID: 1329314378}
   - component: {fileID: 1329314377}
-  m_Layer: 6
+  m_Layer: 30
   m_Name: "\u015Aciana (9)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4515,7 +4515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4598,7 +4598,7 @@ GameObject:
   - component: {fileID: 1375695708}
   - component: {fileID: 1375695707}
   - component: {fileID: 1375695710}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4710,7 +4710,7 @@ GameObject:
   - component: {fileID: 1426245621}
   - component: {fileID: 1426245620}
   - component: {fileID: 1426245623}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4821,7 +4821,7 @@ GameObject:
   - component: {fileID: 1451836670}
   - component: {fileID: 1451836669}
   - component: {fileID: 1451836668}
-  m_Layer: 6
+  m_Layer: 30
   m_Name: "\u015Aciana (5)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4913,7 +4913,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1479756901}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cele
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4979,7 +4979,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5054,7 +5054,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5129,7 +5129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5204,7 +5204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5279,7 +5279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d85d3a32fb6157d488e31edf82b7b1c4, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d85d3a32fb6157d488e31edf82b7b1c4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5354,7 +5354,7 @@ GameObject:
   - component: {fileID: 1533592840}
   - component: {fileID: 1533592839}
   - component: {fileID: 1533592842}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5466,7 +5466,7 @@ GameObject:
   - component: {fileID: 1538456833}
   - component: {fileID: 1538456832}
   - component: {fileID: 1538456835}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5578,7 +5578,7 @@ GameObject:
   - component: {fileID: 1542957680}
   - component: {fileID: 1542957679}
   - component: {fileID: 1542957682}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5690,7 +5690,7 @@ GameObject:
   - component: {fileID: 1561047206}
   - component: {fileID: 1561047205}
   - component: {fileID: 1561047208}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5833,7 +5833,7 @@ GameObject:
   - component: {fileID: 1587005728}
   - component: {fileID: 1587005727}
   - component: {fileID: 1587005726}
-  m_Layer: 6
+  m_Layer: 30
   m_Name: "\u015Aciana (7)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5929,7 +5929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6004,7 +6004,7 @@ GameObject:
   - component: {fileID: 1612137966}
   - component: {fileID: 1612137965}
   - component: {fileID: 1612137968}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6116,7 +6116,7 @@ GameObject:
   - component: {fileID: 1616123723}
   - component: {fileID: 1616123722}
   - component: {fileID: 1616123725}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6228,7 +6228,7 @@ GameObject:
   - component: {fileID: 1623741632}
   - component: {fileID: 1623741631}
   - component: {fileID: 1623741634}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6340,7 +6340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6415,7 +6415,7 @@ GameObject:
   - component: {fileID: 1695850237}
   - component: {fileID: 1695850236}
   - component: {fileID: 1695850239}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6527,7 +6527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d85d3a32fb6157d488e31edf82b7b1c4, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d85d3a32fb6157d488e31edf82b7b1c4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6602,7 +6602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6677,7 +6677,7 @@ GameObject:
   - component: {fileID: 1824192740}
   - component: {fileID: 1824192739}
   - component: {fileID: 1824192742}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6789,7 +6789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6864,7 +6864,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2b127815fd0f2074eae3a0c6a4786d0b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7031,7 +7031,7 @@ GameObject:
   - component: {fileID: 1940005603}
   - component: {fileID: 1940005602}
   - component: {fileID: 1940005601}
-  m_Layer: 6
+  m_Layer: 30
   m_Name: "\u015Aciana"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7127,7 +7127,7 @@ GameObject:
   - component: {fileID: 1956546752}
   - component: {fileID: 1956546751}
   - component: {fileID: 1956546754}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7239,7 +7239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d85d3a32fb6157d488e31edf82b7b1c4, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d85d3a32fb6157d488e31edf82b7b1c4, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7313,7 +7313,7 @@ GameObject:
   - component: {fileID: 2081015038}
   - component: {fileID: 2081015037}
   - component: {fileID: 2081015036}
-  m_Layer: 6
+  m_Layer: 30
   m_Name: "\u015Aciana (8)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7409,7 +7409,7 @@ GameObject:
   - component: {fileID: 2095590885}
   - component: {fileID: 2095590884}
   - component: {fileID: 2095590887}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7521,7 +7521,7 @@ GameObject:
   - component: {fileID: 2145759714}
   - component: {fileID: 2145759713}
   - component: {fileID: 2145759716}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cel (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7627,6 +7627,61 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2488097016232971646, guid: b22d9b4e400b888449d14ef532e43b05,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488097016232971646, guid: b22d9b4e400b888449d14ef532e43b05,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488097016232971646, guid: b22d9b4e400b888449d14ef532e43b05,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488097016232971646, guid: b22d9b4e400b888449d14ef532e43b05,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488097016232971646, guid: b22d9b4e400b888449d14ef532e43b05,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488097016232971646, guid: b22d9b4e400b888449d14ef532e43b05,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488097016232971646, guid: b22d9b4e400b888449d14ef532e43b05,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488097016232971646, guid: b22d9b4e400b888449d14ef532e43b05,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488097016232971646, guid: b22d9b4e400b888449d14ef532e43b05,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488097016232971646, guid: b22d9b4e400b888449d14ef532e43b05,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488097016242004656, guid: b22d9b4e400b888449d14ef532e43b05,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 97176a982fb4f1c4799dde92587b3ad6, type: 2}
     - target: {fileID: 4780319890931726244, guid: b22d9b4e400b888449d14ef532e43b05,
         type: 3}
       propertyPath: m_RootOrder
@@ -7635,7 +7690,7 @@ PrefabInstance:
     - target: {fileID: 4780319890931726244, guid: b22d9b4e400b888449d14ef532e43b05,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.07
+      value: -11.67
       objectReference: {fileID: 0}
     - target: {fileID: 4780319890931726244, guid: b22d9b4e400b888449d14ef532e43b05,
         type: 3}
@@ -7645,7 +7700,7 @@ PrefabInstance:
     - target: {fileID: 4780319890931726244, guid: b22d9b4e400b888449d14ef532e43b05,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -5.08
       objectReference: {fileID: 0}
     - target: {fileID: 4780319890931726244, guid: b22d9b4e400b888449d14ef532e43b05,
         type: 3}
@@ -7686,11 +7741,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gracz
-      objectReference: {fileID: 0}
-    - target: {fileID: 6976186395540569227, guid: b22d9b4e400b888449d14ef532e43b05,
-        type: 3}
-      propertyPath: odstepGranatow
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b22d9b4e400b888449d14ef532e43b05, type: 3}

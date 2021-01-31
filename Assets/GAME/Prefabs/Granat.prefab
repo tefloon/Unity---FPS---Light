@@ -82,7 +82,7 @@ MonoBehaviour:
   silaEksplozji: 2000
   warstwyEksplozji:
     serializedVersion: 2
-    m_Bits: 1847
+    m_Bits: 1073743671
   czyOpoznicWybuch: 1
   opoznienie: 2
   dzwiekiOdbicia:
