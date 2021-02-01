@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Shootable
   - Fire
+  - Gracz
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Postprocessing
   - BrakOdrzutu
   - WarstwaBroni
-  - 
+  - Przeciwnicy
   - 
   - 
   - 

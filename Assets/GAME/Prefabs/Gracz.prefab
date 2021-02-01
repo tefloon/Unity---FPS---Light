@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 6976186395540569227}
   m_Layer: 7
   m_Name: Gracz
-  m_TagString: Untagged
+  m_TagString: Gracz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -533,7 +533,7 @@ MonoBehaviour:
     type: 3}
   warstwyTrafienia:
     serializedVersion: 2
-    m_Bits: 1073745719
+    m_Bits: 1073753911
   dzwiekStrzalu: {fileID: 8300000, guid: 8602b7d5cd15c1943a50aa53f171c8cf, type: 3}
   dzwiekPrzeladowania: {fileID: 8300000, guid: 3c5c1d4d7b9307c458890a4beb12e4ae, type: 3}
   maxAmmo: 30
@@ -970,6 +970,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3041674121037328454, guid: 0fa9f622903a7a24db59f89370fe6566,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 97176a982fb4f1c4799dde92587b3ad6, type: 2}
     - target: {fileID: 9066503529124237941, guid: 0fa9f622903a7a24db59f89370fe6566,
         type: 3}
       propertyPath: m_Layer
