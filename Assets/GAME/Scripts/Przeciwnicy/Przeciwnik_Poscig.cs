@@ -6,19 +6,24 @@ using System;
 [RequireComponent(typeof(NavMeshAgent))]
 public class Przeciwnik_Poscig : MonoBehaviour
 {
-
-	[SerializeField] private Transform pozycjaGracza;
 	[SerializeField] private float promienWyszukiwania;
 
 	private NavMeshAgent mojNavMeshAgent;
 	private Animator mojAnimator;
 	private Collider[] znalezioneObiekty;
-	public bool CzyNavMeshAktywny = true;
+	private SkryptSpawnera mojSkryptSpawnera;
 
 	private bool czyAtakuje;
 	private bool czyMamCel;
 
-	void Start()
+	public void Setup(int zycie, float predkosc)
+	{
+		mojNavMeshAgent.speed = predkosc;
+		GetComponent<Zycie>().ObenceHP = zycie;
+		mojAnimator.SetFloat("MnoznikPredkosci", predkosc / 3);
+	}
+
+	void OnEnable()
 	{
 		mojNavMeshAgent = GetComponent<NavMeshAgent>();
 		mojAnimator = GetComponent<Animator>();
@@ -50,12 +55,10 @@ public class Przeciwnik_Poscig : MonoBehaviour
 
 	private void ZacznijIsc(Vector3 cel)
 	{
-		if (!CzyNavMeshAktywny) return;
 		mojNavMeshAgent.SetDestination(cel);
 
 		if (!mojAnimator.GetBool("CzyIdzie"))
 		{
-			print("Ustawiam ide na true");
 			mojAnimator.SetBool("CzyIdzie", true);
 		}
 		
@@ -80,7 +83,6 @@ public class Przeciwnik_Poscig : MonoBehaviour
 			{
 				ZacznijIsc(obiekt.transform.position);
 				czyMamCel = true;
-				print("Znalaz³em Cel");
 			}
 		}
 

@@ -11,6 +11,8 @@ public class Gracz_HitScan : MonoBehaviour
 	[SerializeField] private float odstepStrzalow;
 	[SerializeField] Transform miejsceStrzalu;
 	[SerializeField] private GameObject efektTrafienia;
+	[SerializeField] private GameObject efektTrafieniaPrzeciwnika;
+	[SerializeField] private int obrazenia;
 	
 	[SerializeField] private AudioClip dzwiekStrzalu;
 	[SerializeField] private AudioClip dzwiekPrzeladowania;
@@ -40,7 +42,6 @@ public class Gracz_HitScan : MonoBehaviour
 		{
 			if (Input.GetButton("Fire1") && Time.time >= nastepnyStrzal)
 			{
-				print("Strzelam!");
 				StrzalRaycast();
 				nastepnyStrzal = Time.time + odstepStrzalow;
 				obecneAmmo -= 1;
@@ -83,8 +84,27 @@ public class Gracz_HitScan : MonoBehaviour
 		if (Physics.Raycast(miejsceStrzalu.position, miejsceStrzalu.forward, out cel))
 		{
 			Debug.DrawRay(miejsceStrzalu.position, miejsceStrzalu.forward * 50f, Color.green, 2f);
-			var go = Instantiate(efektTrafienia, cel.point, Quaternion.LookRotation(cel.normal));
-			// print(cel.transform.name);
+
+			if (!cel.transform.CompareTag("Gracz"))
+			{
+				GameObject efektDoStworzenia = efektTrafienia;
+
+				if (cel.transform.CompareTag("Przeciwnik"))
+				{
+					efektDoStworzenia = efektTrafieniaPrzeciwnika;
+				}
+
+				var go = Instantiate(efektDoStworzenia, cel.point, Quaternion.LookRotation(cel.normal));
+				go.transform.SetParent(cel.transform);
+
+				Zycie zycieSkrypt = cel.transform.gameObject.GetComponent<Zycie>();
+
+				if (zycieSkrypt)
+				{
+					zycieSkrypt.ZadajObrazenia(obrazenia);
+				}
+			}
+			
 		}
 
 		skryptBroni.PokazEfektStrzalu();

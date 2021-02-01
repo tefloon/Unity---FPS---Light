@@ -13,9 +13,7 @@ public class Bron_Efekty : MonoBehaviour
 
     public void PokazEfektStrzalu()
 	{
-        print("Pokazuje!");
         blysk.Play();
-
         animator.SetTrigger("Strzel");
     }
 

@@ -70,6 +70,7 @@ MonoBehaviour:
   warstwyEksplozji:
     serializedVersion: 2
     m_Bits: 1073743671
+  maxObrazenia: 60
   czyOpoznicWybuch: 1
   opoznienie: 2
   dzwiekiOdbicia:

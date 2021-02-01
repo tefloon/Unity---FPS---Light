@@ -9,6 +9,7 @@ public class Granat_Wybuch : MonoBehaviour
     [SerializeField] private float promienEksplozji;
     [SerializeField] private float silaEksplozji;
     [SerializeField] private LayerMask warstwyEksplozji;
+    [SerializeField] private int maxObrazenia;
 
     [SerializeField] private bool czyOpoznicWybuch;
     [SerializeField] private float opoznienie;
@@ -42,6 +43,11 @@ public class Granat_Wybuch : MonoBehaviour
 
         OdtworzDzwiekOdbicia();
     }
+
+    private void ZadajObrazenia()
+	{
+
+	}
 
     private void OdtworzDzwiekOdbicia()
 	{
@@ -79,12 +85,21 @@ public class Granat_Wybuch : MonoBehaviour
 
         foreach (var rzecz in znalezioneObiekty)
         {
-
             Rigidbody rb = rzecz.GetComponent<Rigidbody>();
 
             if (rb)
             {
                 rb.AddExplosionForce(silaEksplozji, transform.position, promienEksplozji);
+            }
+
+            Zycie zycieSkrypt = rzecz.GetComponent<Zycie>();
+
+            if (zycieSkrypt)
+            {
+                float odleglosc = Vector3.Distance(transform.position, rzecz.transform.position);
+                int obrazeniaDoZadania = (int)(maxObrazenia * (odleglosc / promienEksplozji));
+
+                zycieSkrypt.ZadajObrazenia(obrazeniaDoZadania);
             }
         }
     }
