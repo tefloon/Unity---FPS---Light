@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Zmiana do prawdzenia GIT-a
+
 [RequireComponent(typeof(AudioSource))]
 public class Gracz_HitScan : MonoBehaviour
 {
