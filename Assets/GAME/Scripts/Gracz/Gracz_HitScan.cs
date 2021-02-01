@@ -3,13 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Zmiana do prawdzenia GIT-a
+
 [RequireComponent(typeof(AudioSource))]
 public class Gracz_HitScan : MonoBehaviour
 {
 	[SerializeField] private float odstepStrzalow;
-	[SerializeField] private Transform miejsceStrzalu;
+	[SerializeField] Transform miejsceStrzalu;
 	[SerializeField] private GameObject efektTrafienia;
-	[SerializeField] private LayerMask warstwyTrafienia;
 	
 	[SerializeField] private AudioClip dzwiekStrzalu;
 	[SerializeField] private AudioClip dzwiekPrzeladowania;
@@ -29,11 +30,6 @@ public class Gracz_HitScan : MonoBehaviour
 	{
 		obecneAmmo = maxAmmo;
 		odtwarzacz = GetComponent<AudioSource>();
-		UaktualnijBron();
-	}
-
-	private void UaktualnijBron()
-	{
 		skryptBroni = GetComponentInChildren<Bron_Efekty>();
 	}
 
@@ -60,10 +56,10 @@ public class Gracz_HitScan : MonoBehaviour
 	IEnumerator Przeladuj()
 	{
 		print("Prze³adowujê...");
-		skryptBroni.Przeladuj();
 
 		czyPrzeladowuje = true;
 		odtwarzacz.PlayOneShot(dzwiekPrzeladowania);
+		skryptBroni.Przeladuj();
 
 		yield return new WaitForSeconds(dlugoscPrzeladowania);	
 		obecneAmmo = maxAmmo;
@@ -84,14 +80,11 @@ public class Gracz_HitScan : MonoBehaviour
 	{
 		RaycastHit cel;
 
-		if (Physics.Raycast(miejsceStrzalu.position, miejsceStrzalu.forward, out cel, warstwyTrafienia))
+		if (Physics.Raycast(miejsceStrzalu.position, miejsceStrzalu.forward, out cel))
 		{
-			if(cel.transform.gameObject.layer != LayerMask.NameToLayer("Gracz"))
-			{
-				Debug.DrawRay(miejsceStrzalu.position, miejsceStrzalu.forward * 50f, Color.green, 2f);
-				var go = Instantiate(efektTrafienia, cel.point, Quaternion.LookRotation(cel.normal));
-				go.transform.SetParent(cel.transform);
-			}	
+			Debug.DrawRay(miejsceStrzalu.position, miejsceStrzalu.forward * 50f, Color.green, 2f);
+			var go = Instantiate(efektTrafienia, cel.point, Quaternion.LookRotation(cel.normal));
+			// print(cel.transform.name);
 		}
 
 		skryptBroni.PokazEfektStrzalu();

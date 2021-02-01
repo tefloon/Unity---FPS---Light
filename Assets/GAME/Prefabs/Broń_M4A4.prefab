@@ -1345,9 +1345,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3041674121029836680}
   - component: {fileID: 3041674121037328454}
-  - component: {fileID: 3757911516707264442}
+  - component: {fileID: 477930645720226566}
   m_Layer: 0
-  m_Name: M4A1_PBR
+  m_Name: "Bro\u0144_M4A4"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1402,7 +1402,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3757911516707264442
+--- !u!114 &477930645720226566
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1411,7 +1411,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3041674121029927912}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcf91c4e4ab3194449a75ef254a5b866, type: 3}
+  m_Script: {fileID: 11500000, guid: 69f5ed0d7459c194fb105aee0d3ab514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   efektWystrzalu: {fileID: 19800004, guid: 9f9c847c51f6e344482f81b4c1ded4a7, type: 3}

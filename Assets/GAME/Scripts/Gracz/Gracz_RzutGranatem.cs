@@ -19,21 +19,30 @@ public class Gracz_RzutGranatem : MonoBehaviour
     private bool czyRzuca = false;
     private float nastepnyGranat = 0;
     private AudioSource odtwarzacz;
-
+    private Bron_Efekty skryptBroni;
 
     // Start is called before the first frame update
     void Start()
     {
         odtwarzacz = GetComponent<AudioSource>();
+        skryptBroni = GetComponentInChildren<Bron_Efekty>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && Time.time >= nastepnyGranat)
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            czyGranatWybrany = true;
-
+			if (Time.time >= nastepnyGranat && !czyGranatWybrany)
+			{
+                czyGranatWybrany = true;
+                skryptBroni.SchowajBron();
+            }
+            else if(czyGranatWybrany) 
+			{
+                czyGranatWybrany = false;
+                skryptBroni.PokazBron();
+            }
         }
 
 		if (czyGranatWybrany && Input.GetMouseButtonDown(1))
@@ -65,5 +74,9 @@ public class Gracz_RzutGranatem : MonoBehaviour
         var rb = go.GetComponent<Rigidbody>();
         rb.AddForce(miejsceGranatu.forward * silaRzutu, ForceMode.VelocityChange);
         rb.AddTorque(Vector3.right * silaRotacji, ForceMode.Impulse);
+
+        yield return new WaitForSeconds(0.5f);
+
+        skryptBroni.PokazBron();
     }
 }
