@@ -72,7 +72,7 @@ MonoBehaviour:
     m_Bits: 1073743671
   maxObrazenia: 60
   czyOpoznicWybuch: 1
-  opoznienie: 2
+  opoznienie: 1
   dzwiekiOdbicia:
   - {fileID: 8300000, guid: 419336aa8912ae0468e104596863a0a1, type: 3}
   - {fileID: 8300000, guid: 64baa1f44691afc42a584e482cd9a27d, type: 3}

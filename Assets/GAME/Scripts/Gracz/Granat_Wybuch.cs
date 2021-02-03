@@ -27,6 +27,8 @@ public class Granat_Wybuch : MonoBehaviour
 
 	private void OnCollisionEnter(Collision collision)
 	{
+        if (collision.transform.CompareTag("Gracz")) return;
+
 		if (!czyOdpalony)
 		{
             if (czyOpoznicWybuch)
